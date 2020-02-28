@@ -10,3 +10,13 @@
 '''
 
 config = 'switchport trunk allowed vlan 1,3,10,20,30,100'
+
+'''
+Для выполнения задания использовал метод split()
+'''
+commands = config.split()
+print(commands)
+# ['switchport', 'trunk', 'allowed', 'vlan', '1,3,10,20,30,100'] - Разбил строку на части по разделителю.
+vlans = commands[-1].split(',') # Взял последний элемент в строке [-1] + разделилил список (',').
+print(vlans)
+# ['1', '3', '10', '20', '30', '100']
