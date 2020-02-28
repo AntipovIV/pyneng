@@ -10,3 +10,11 @@
 '''
 
 nat = 'ip nat inside source list ACL interface FastEthernet0/1 overload'
+
+'''
+Для выполнения задания использовал метод replace()
+'''
+
+print(nat.replace('Fast', 'Gigabit'))
+
+# 'ip nat inside source list ACL interface GigabitEthernet0/1 overload'
