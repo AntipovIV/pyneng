@@ -20,8 +20,10 @@ $ python task_5_1a.py
 '''
 
 
+
 device_name = input('Введите имя устройства(r1/r2/sw1): ')
 device_parameter = input('Введите имя параметра: ')
+
 
 london_co = {
     'r1': {
