@@ -21,6 +21,8 @@ $ python task_5_1.py
 То есть эту задачу можно решить без использования условия if.
 '''
 
+device_name = input('Введите имя устройства(r1/r2/sw1): ')
+
 london_co = {
     'r1': {
         'location': '21 New Globe Walk',
@@ -46,3 +48,7 @@ london_co = {
         'routing': True
     }
 }
+print(london_co[device_name])
+
+
+
